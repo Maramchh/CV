@@ -1,1 +1,44 @@
+.img-circle {
+    border-radius: 50%;
+    width: 9%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+h1{
+    font-size: 300%;
+    letter-spacing: -2pt;
+    font-weight: bolder;
+    text-align: center;
+}
+body {
+    font-family: sans-serif;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.section {
+    padding-top: 1%;
+    border-top: solid;
+    border-bottom: solid; 
+    padding-bottom: 1%;
+    border-color:rgba(0,0,0, 0.2) ;
+
+}
+
+.emph {
+    color: orange;
+    font-style: italic;
+}
+
+.left {
+    column-count: 2;
+    column-gap: 20%;
+}
+
+.batikh {
+    text-align: justify;
+}
+
 
