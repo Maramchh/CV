@@ -1,6 +1,6 @@
 .img-circle {
-    border-radius: 30%;
-    width: 15%;
+    border-radius: 50%;
+    width: 20%;
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -11,34 +11,74 @@ h1{
     letter-spacing: -2pt;
     font-weight: bolder;
     text-align: center;
+    font-style: italic;
+    color: white;
+    background-color: rgb(228, 108, 108);
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+h2 {
+    font-size: 150%;
+    color: crimson;
+}
+
+h3{
+    column-fill: balance;
+    font-size: 100%;
 }
 body {
-    font-family: sans-serif;
+    font-family: 'sans-serif';
     margin-left: 15%;
     margin-right: 15%;
+    background-color: bisque;
 }
 
 .section {
     padding-top: 1%;
-    border-top: solid;
     border-bottom: solid; 
     padding-bottom: 1%;
-    border-color:rgba(0,0,0, 0.2) ;
+    border-color:rgba(110, 0, 0, 0.2) ;
+    font-family: 'Georgia';
 
 }
 
 .emph {
-    color: orange;
+    color: rgb(172, 55, 79);
     font-style: italic;
 }
 
 .left {
     column-count: 2;
     column-gap: 20%;
+    float: left;
+    column-rule: 1px solid lightcoral;
 }
 
-.batikh {
+
+
+.justify {
     text-align: justify;
+}
+
+
+.link{
+    color: rgb(173, 17, 82);
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p{
+    line-height: 100%;
+}
+
+.menu {
+    text-align: left;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-right: 50%;
+    font-family: Times;
+    
 }
 
 
